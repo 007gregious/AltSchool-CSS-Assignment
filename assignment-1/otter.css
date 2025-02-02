@@ -1,0 +1,83 @@
+.tenor-sans-regular {
+  font-family: "Tenor Sans", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* The body styling */
+body {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 2;
+}
+
+/* The body class styling */
+.main {
+  color: black;
+  align-content: center;
+  padding-top: 4%;
+  padding: 5%;
+}
+
+.main p {
+  position: absolute;
+  background-color: white;
+  font-size: 2.5em;
+  width: 60%;
+  height: 70%;
+  padding: 70px;
+  padding-top: 100px;
+  border-radius: 30px;
+  top: 30%;
+  transform: translateX(30%);
+}
+
+/* The Pink heading styling */
+.heading {
+  background-color: #ff0099; 
+  color: black;
+  top: 1px;
+  margin-top: 90px;
+  font-weight: bold; 
+  font-size: 3rem;
+  width: 40%;
+  padding: 40px;
+  border-radius: 5px;
+  position: relative; 
+  left: 32%; 
+  transform: translateX(0%); 
+  z-index: 1;
+}
+
+/* The media query implementation*/
+@media (max-width: 1020px) {
+  .heading {
+    font-size: 2rem;
+    width: 40%;
+  }
+
+  p {
+    font-size: 2rem;
+  }
+
+  .nav p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .heading {
+    font-size: 1.5rem;
+    width: 40%;
+  }
+
+  p {
+    font-size: 1.2rem;
+    padding-top: 20%;
+  }
+}

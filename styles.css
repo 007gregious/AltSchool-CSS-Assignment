@@ -1,0 +1,117 @@
+.tenor-sans-regular {
+  font-family: "Tenor Sans", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Reset some default styles */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+}
+
+/* Style the header */
+header {
+  background-color: #4caf50;
+  color: white;
+  padding: 1px 0;
+  text-align: center;
+}
+
+/* Style the main heading */
+h1 {
+  text-align: center;
+  padding: 20px 20px;
+  background-color: #4caf50;
+  color: white;
+}
+
+/* Card styles */
+.card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 500px;
+}
+
+/* Style the navigation menu */
+nav {
+  margin: 0;
+}
+
+/* Style the unordered list */
+nav ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+/* Style the list items */
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+/* Style the links */
+nav ul li a {
+  color: #4caf50;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.box {
+  flex: 1;
+  margin: 10px;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border: 1px solid #ccc;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.box:hover {
+  background-color: #e5f3e5;
+  color: white;
+}
+
+/* Style the checklist */
+h2 span {
+  border: 3px solid #4caf50;
+  color: #4caf50;
+  padding: 6px;
+  border-radius: 50%;
+  padding-top: 0;
+  padding-bottom: 0;
+  text-align: end;
+}
+
+/* Footer styles */
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #333;
+  color: white;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
