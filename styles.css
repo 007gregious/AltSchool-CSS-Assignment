@@ -67,6 +67,11 @@ li:first-child a {
   border-radius: 1.5rem 1.5rem 0 0;
 }
 
+a {
+  text-decoration: none;
+  color: #333;
+}
+
 li a {
   display: block;
 }
