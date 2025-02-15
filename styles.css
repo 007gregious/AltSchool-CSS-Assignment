@@ -87,52 +87,6 @@ li:last-child a {
   border-radius: 0 0 1.5rem 1.5rem;
 }
 
-/* Style the links */
-/* nav ul li a {
-  color: #4caf50;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-nav ul li a:hover {
-  text-decoration: underline;
-}
- */
-/* .container {
-  display: flex;
-  justify-content: space-around;
-  align-items: baseline;
-  padding: 20px;
-  box-sizing: border-box;
-}
- */
- /* 
-.box {
-  flex: 1;
-  margin: 10px;
-  padding: 10px;
-  background-color: #f4f4f4;
-  border: 1px solid #ccc;
-  text-align: center;
-  border-radius: 15px;
-}
-
-.box:hover {
-  background-color: #e5f3e5;
-  color: white;
-}
- */
-/* Style the checklist */
-/* span {
-  border: 3px solid #4caf50;
-  color: #4caf50;
-  padding: 6px;
-  border-radius: 50%;
-  padding-top: 0;
-  padding-bottom: 0;
-  text-align: end; 
-} */
-
 /* Footer styles */
 footer {
   text-align: center;
